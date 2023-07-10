@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mecasys/MyProjects/MJPEG_Viewer/src/test.cpp
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+unistd.h
+-
+
